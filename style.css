@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+html {
+    font-size: 62.5%;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    font-size: 1.6rem;
+}
+
+
+
+
+.prueba{
+    position: relative;
+    z-index: 2;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
+
+
+.header {
+    background: var(--nav);
+    backdrop-filter: blur(10px);
+}
+
+.navigation {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo .logo-img {
+    margin-left: 55px;
+    width: 70px;
+}
+
+
+
+
+.nav_list {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.nav_link {
+    font-size: 1.6rem;
+    color: var(--white);
+}
+
+.nav_link.active {
+    position: relative;
+}
+
+
+
+
+.login,
+.btn-primary {
+    padding: 0.6rem 2rem;
+    border: 0.2rem solid var(--secondary);
+    color: var(--white);
+    border-color: #adfb05;
+    border-radius: 3rem;
+    display: inline-flex;
+    margin-left: 80px;
+    
+    
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root {
+    width: 100%;
+    --container: 144rem;
+    --m-auto: 0 auto;
+    --white: #fff;
+    --primary: #8a1538;
+    --secondary: #eeeee4;
+    --gr-1: rgba(138, 21, 56, 0.607);
+    --gr-2: rgba(138, 21, 56, 0.665);
+    --nav: rgba(225, 225, 225, 0.045);
+    --mobile-nav: #7d3e59;
+    --count-down-bg: rgba(238, 235, 235, 0.295);
+    --timer-before-bg: rgb(218, 201, 109);
+    
+}
+.eslogan{
+    color: #fff;
+    margin-left: 70px;
+    font-size: 25px;
+}
+.derecha img{
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+h2{
+    color: #adfb05;
+}
+/* BUSQUEDA */
+.NAV_SEGUNDO{
+    
+    width: 100%;
+    height: 70px;
+    text-align: center;
+   
+
+    padding: 0.6rem 2rem;
+    border: 0.2rem solid var(--secondary);
+    color: var(--white);
+    border-color: #adfb05;
+    border-radius: 3rem;
+    display: inline-flex;
+    
+    
+    
+   
+}
+.NAV_SEGUNDO nav ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-left: 80px;
+   
+    
+
+
+}
+.NAV_SEGUNDO nav ul li a{
+    margin-left: 80px;
+    color: #adfb05;
+    
+    
+   
+}
+.NAV_SEGUNDO h1{
+    margin-left: 180px;
+    margin-right: 70px;
+    margin-block: -10px;
+}
+h1{
+    color: #adfb05;
+    margin-left: 100px;
+    
+    
+}
+
+/* selecciones */
+
+.selecciones{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    margin-left: 10%;
+    
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    
+    
+}
+.selecciones div{
+    background-color: #f4f1f2;
+    margin-left: 30px;
+
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 3rem;
+}
+
+.selecciones img:first-child {
+    
+    margin-top: 30px;
+    background-color: rgb(175, 233, 15);
+    margin-left: 60px;
+    width: 110px;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.seleccionesh1{
+    
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color:rgba(238, 235, 235, 0.295);
+    position: relative;
+    color: aqua;
+    
+ }
+.resultados{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+
+/* selecciones */
+.estadios{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    margin-left: 10%;
+    
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    
+    
+}
+.estadios img:first-child {
+    
+    margin-top: 30px;
+    
+    margin-left: 60px;
+    width: 250px;
+    align-items: center;
+    margin-right: 50px;
+    border-radius: 3rem;
+
+}
+.estadios img{
+    width: 400px;
+}
+
+/* footer */
+
+.footer_principal{
+    
+    
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0%;
+ }
+#FOOTER{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    
+}
+
+
+/*  login  */
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body, .wrapper{
+    height: 100%;
+}
+
+#body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url("https://i.pinimg.com/originals/0e/fe/4f/0efe4f0e963c90e23f36ad05702b48e8.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Ubuntu";
+    animation: rotate 6s ;
+    backdrop-filter: blur(10px);
+}
+.ingreso > img{
+    width: 180px;
+    height: 80px;
+    object-fit: cover;
+    
+    margin-bottom: 20px;
+}
+
+.contenedor-ingreso{
+    position: relative;
+    z-index: 3;
+    width: 27%;
+    margin: 0 20px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    background: #fff;
+    text-align: center;
+}
+
+.contenedor-ingreso > h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 12px;
+    color: rgba(217, 224, 13, 0.99);
+}
+
+.contenedor-ingreso> h3{
+    color: rgba(0, 0, 0, 0.38);
+    margin: 0 0 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.ingreso-formulario{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.ingreso-formulario > input, .login-form > button{
+    width: 100%;
+    height: 50px;
+}
+
+.ingreso-formulario > input {
+    border: 2px solid #ebebeb;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+}
+
+.ingreso-formulario > input:hover{
+    border: 2px solid #ae0718;
+}
+
+
+.ingreso-formulario > button{
+    width: 100%;
+    height: 40px;
+    border-radius: 1.25rem;
+    background: #07a321;
+    color: #f9f9f9;
+    border: 0;
+    text-align: center;
+    font-size: large;
+}
+
+.ingreso-formulario > button:hover{
+    background: #ae0718;
+}
+
+.ingreso-formulario > a{
+    color:  rgba(0, 0, 0, 0.38);
+    text-align: left;
+    text-decoration: none;
+}
+
+.ingreso-formulario > a:hover{
+    color: #ae0718;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(203, 162, 14);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:#fff;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #adfb05;  /* creates padding around scroll thumb */
+  }
+  
+
+
+
+
+
+
